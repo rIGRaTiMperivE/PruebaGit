@@ -1,0 +1,109 @@
+/*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}*/
+
+#contenedor{
+    background-color: blueviolet;
+     padding: 1rem;
+    border: 1px solid #fff;
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    grid-template-rows:  20% 20% 20% 20% 8rem 28rem;
+    gap: .5rem;
+    justify-content: space-around;
+}
+
+#grid-item{
+    border: 3px solid #000;
+    background-color: green;
+    text-align: center;
+  /*  width: 10rem;
+    height: 15rem;*/
+}
+
+
+.primero{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+    /*border: solid 2px #000;
+    background-color: red;
+    margin: 5px;
+    /*estas etiquetas van en la caja contenedora*/
+   /* display: flex;
+    flex-wrap: wrap;
+    /*como queremos que se ubiquen nuestros hijos*/
+    /*flex-direction: column;
+    /*flex-direction: row;*/
+
+ /*   height: auto; */
+    /*esta propiedad sirve con columna*/
+    /*justify-content: center;*/
+    /*esta sirve para alinear los elementos en fila*/
+     /*align-items: flex-end;*/
+     /*gap: 3rem;*/
+   /*  transition: flex-direction 30s ease-out;
+}*/
+/*.item{
+    background-color: yellow;
+    padding: .5rem;
+    margin: .5rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+}
+*/
+
+/*@media screen and (min-width: 780px) {
+
+    /*.item3{
+        order: 3;
+        align-self: flex-end;
+       
+    }
+    
+    .item5{
+        order: 1;
+        align-self: flex-start;
+        top: 0;
+        
+    }
+    
+    .item1 , .item2 , .item4 {
+        order: 5;
+        align-self: center;
+    }
+    #contenedor{
+    flex-direction: row;
+    align-items: center;
+    }*/
+
+/*@media screen and (min-width: 320px ) {
+   /* .item3{
+        order: 1;
+        align-self: flex-start;
+    }
+    
+    .item5{
+        order: 3;
+        align-self: flex-end;
+        
+    }
+    
+    .item1 , .item2 , .item4 {
+        order: 5;
+        align-self: center;
+    }
+
+    #contenedor{
+        background-color: blueviolet;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        }
+*/
