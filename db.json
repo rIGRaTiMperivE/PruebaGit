@@ -1,4 +1,5 @@
-"destinos":[
+{
+  "destinos":[
   {
     "id": "1",
     "pais": "Chile",
@@ -35,3 +36,4 @@
     "evento": "Workshop"
   }
 ]
+}
